@@ -12,7 +12,7 @@ void setup()
 
   size(400, 400);
 
- background(241, 141, 215);
+ background(random(255), random(255), random(255));
 
 }
 
@@ -40,8 +40,7 @@ void draw()
 
   fill(255);
 
-  text("Total: "+ Total);
-  //200, 390);
+  text("Total: "+ Total 200, 390);
 
 }
 
