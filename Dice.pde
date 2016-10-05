@@ -22,9 +22,6 @@ void draw()
 
   int Total=0;
 
-
-
-
   for (int y=25; y<=350; y+=75) {
 
     for (int x=25; x<=350; x+=75) {
@@ -41,7 +38,7 @@ void draw()
 
   }
 
-  fill(255);
+  fill(66, 134, 244);
 
   text("Total: "+ Total, 200, 390);
 
@@ -75,9 +72,6 @@ class Die //models one single dice cube
 
   //variable initializations here
 
-
-
-
   void roll()
 
   {
@@ -94,7 +88,7 @@ class Die //models one single dice cube
 
     rect(myX, myY, 50, 50);
 
-    fill(0);
+    fill(66, 134, 244);
 
     if (result==1) {
 
@@ -161,9 +155,5 @@ class Die //models one single dice cube
       ellipse(myX+40, myY+25, 10, 10);
 
     }
-
-   
-
   }
-
 }
