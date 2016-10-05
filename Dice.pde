@@ -12,7 +12,7 @@ void setup()
 
   size(400, 400);
 
- background(241, 141, 215);
+ background( random (255), random(255), random(255));
 
 }
 
