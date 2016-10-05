@@ -12,7 +12,7 @@ void setup()
 
   size(400, 400);
 
- background(random(255), random(255), random(255));
+ background(241, 141, 215);
 
 }
 
@@ -21,6 +21,9 @@ void draw()
 {
 
   int Total=0;
+
+
+
 
   for (int y=25; y<=350; y+=75) {
 
@@ -40,7 +43,7 @@ void draw()
 
   fill(255);
 
-  text("Total: "+ Total 200, 390);
+  text("Total: "+ Total, 200, 390);
 
 }
 
