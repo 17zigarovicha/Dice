@@ -42,7 +42,7 @@ void draw()
 
   text("Total: ", 193, 390);
   text(Total, 215, 390);
-text("Average: ", 195, 18);
+text("Average: ", 193, 18);
 text(average, 221, 18);
 
 }
