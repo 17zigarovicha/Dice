@@ -1,5 +1,5 @@
 int result;
-int average;
+int Average;
 Die bob;
 
 void setup()
@@ -32,7 +32,7 @@ void draw()
       bob.show();
 
       Total= result+Total;
-      average=Total/25;
+      Average=Total/25;
 
     }
 
@@ -43,7 +43,7 @@ void draw()
   text("Total: ", 193, 390);
   text(Total, 215, 390);
 text("Average: ", 193, 18);
-text(average, 221, 18);
+text(Average, 215, 18);
 
 }
 
