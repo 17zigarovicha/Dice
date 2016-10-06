@@ -49,17 +49,17 @@ void mousePressed()
 {
 
   redraw();
-  background(66, 244, 149);
+  //background(66, 244, 149);
 
 }
 
-class Die //models one single dice cube
+class Die 
 
 {
 
-  int myX, myY, Total;//variable declarations here
+  int myX, myY, Total;
 
-  Die(int x, int y) //constructor
+  Die(int x, int y) 
 
   {
 
@@ -71,7 +71,6 @@ class Die //models one single dice cube
 
   }
 
-  //variable initializations here
 
   void roll()
 
