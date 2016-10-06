@@ -1,5 +1,6 @@
 int result;
 int Average;
+int a = 25;
 Die bob;
 
 void setup()
@@ -32,7 +33,7 @@ void draw()
       bob.show();
 
       Total= result+Total;
-      Average=Total/25;
+      Average=Total/a;
 
     }
 
