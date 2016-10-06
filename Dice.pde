@@ -1,5 +1,5 @@
 int result;
-
+int Average;
 Die bob;
 
 void setup()
@@ -19,9 +19,7 @@ void setup()
 void draw()
 
 {
-
   int Total=0;
-
   for (int y=25; y<=350; y+=75) {
 
     for (int x=25; x<=350; x+=75) {
@@ -31,8 +29,11 @@ void draw()
       bob.roll();
 
       bob.show();
+      
+      Average = Total/25;
 
       Total= result + Total;
+      
 
     }
 
@@ -40,8 +41,10 @@ void draw()
 
   fill(66, 134, 244);
 
-  text("Total: "+ Total, 200, 390);
-
+  text("Total: ", 193, 390);
+  text(Total, 215, 390);
+text("Average: ", 195, 18);
+text(Average, 221, 18);
 }
 
 void mousePressed()
@@ -49,6 +52,7 @@ void mousePressed()
 {
 
   redraw();
+  background(66, 244, 149);
 
 }
 
