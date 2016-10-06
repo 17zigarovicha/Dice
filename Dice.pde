@@ -66,7 +66,7 @@ class Die //models one single dice cube
 
   {
 
-    result=(int)((Math.random()*6)+1);
+    Total=(int)((Math.random()*6)+1);
 
     myX=x;
 
