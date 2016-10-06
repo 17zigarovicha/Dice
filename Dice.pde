@@ -1,5 +1,5 @@
 int result;
-int average;
+
 Die bob;
 
 void setup()
@@ -19,8 +19,9 @@ void setup()
 void draw()
 
 {
+
   int Total=0;
-  for (int y=25; y<=350; y+=75) {
+ for (int y=25; y<=350; y+=75) {
 
     for (int x=25; x<=350; x+=75) {
 
@@ -29,11 +30,8 @@ void draw()
       bob.roll();
 
       bob.show();
-      
-      average = Total/25;
 
-      Total= result + Total;
-      
+      Total= result+Total;
 
     }
 
@@ -43,8 +41,7 @@ void draw()
 
   text("Total: ", 193, 390);
   text(Total, 215, 390);
-text("Average: ", 195, 18);
-text(average, 221, 18);
+
 }
 
 void mousePressed()
@@ -60,7 +57,7 @@ class Die //models one single dice cube
 
 {
 
-  int myX, myY, result;//variable declarations here
+  int myX, myY, Total;//variable declarations here
 
   Die(int x, int y) //constructor
 
@@ -159,5 +156,9 @@ class Die //models one single dice cube
       ellipse(myX+40, myY+25, 10, 10);
 
     }
+
+   
+
   }
+
 }
