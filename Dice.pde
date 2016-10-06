@@ -48,8 +48,9 @@ void mousePressed()
 
 {
 
+  background(66, 244, 149);
   redraw();
-  //background(66, 244, 149);
+
 
 }
 
