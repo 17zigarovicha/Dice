@@ -60,13 +60,13 @@ class Die //models one single dice cube
 
 {
 
-  int myX, myY, Total;//variable declarations here
+  int myX, myY, result;//variable declarations here
 
   Die(int x, int y) //constructor
 
   {
 
-    Total=(int)((Math.random()*6)+1);
+    result=(int)((Math.random()*6)+1);
 
     myX=x;
 
