@@ -32,7 +32,7 @@ void draw()
 
       bob.show();
 
-      Total= result+Total;
+      sum= result + Total;
 
     }
 
@@ -40,7 +40,7 @@ void draw()
 
   fill(66, 134, 244);
 
-  text("Total: "+ Total, 200, 390);
+  text("Total: "+ sum, 200, 390);
 
 }
 
